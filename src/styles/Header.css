@@ -1,0 +1,31 @@
+.logout {
+    padding-top: 20px;
+    padding-right: 20px;
+    display: block;
+    clear: both;
+    float: right;
+}
+
+.logo_wrapper {
+    display: block;
+    clear: both;
+
+}
+
+.place_holder {
+    height: 41px;
+}
+
+#spinning {
+    -webkit-animation: rotation 5s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to
+    {
+        -webkit-transform: rotate(359deg);
+    }
+}
